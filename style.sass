@@ -3,3 +3,39 @@ $menu_green: #579c87
 $menu_yellow: #fdcc46
 $border_green: #a1c181
 
+html, body, .navbar__title
+    padding: 0px
+    margin: 0px
+
+.navbar
+    background-color: $menu_green
+    height: 85px
+    display: flex
+    justify-content: center
+    align-items: center
+    &__title
+        color: $menu_yellow
+        font-size: 30px
+//Menus
+.menu_wrapper
+    margin-top: 15px
+    display: flex
+    flex-wrap: wrap
+    justify-content: center
+    align-items: center
+    &__item
+        margin: 10px
+
+.menu_wrapper__item
+    border: 2px solid #ff0048
+    max-width: 135px
+    min-height: 200px
+
+.item__content
+    display: flex
+    justify-content: center
+    align-items: center
+    flex-wrap: wrap
+    &__title
+        font-size: 20px
+        max-width: 100px
