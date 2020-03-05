@@ -27,9 +27,9 @@ html, body, .navbar__title {
 }
 
 .menu_wrapper__item {
-  border: 2px solid #ff0048;
   max-width: 135px;
   min-height: 200px;
+  box-shadow: 1px 1px 5px 1px #b9c7c0;
 }
 
 .item__content {
@@ -41,15 +41,79 @@ html, body, .navbar__title {
 .item__content__title {
   font-size: 20px;
   max-width: 100px;
+  text-align: center;
+}
+.item__content__menu {
+  margin: 0px;
 }
 
 .fa-music {
-  width: 30px;
-  height: 30px;
-  font-size: 30px;
-  background: -webkit-linear-gradient(298deg, #020024 0%, #f04e5f 0%, #f6916a 100%);
+  position: relative;
+  top: 10px;
+  left: 47px;
+  width: 35px;
+  height: 35px;
+  font-size: 35px;
+  background: -webkit-linear-gradient(15deg, #020024 0%, #f04e5f 0%, #f6916a 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.note {
+  background-color: #fcdfdb;
+}
+
+.note__title {
+  color: #3d1319;
+}
+
+.note__menu {
+  color: #3d1319;
+}
+
+.chic {
+  background-color: #fff5fe;
+}
+
+.chic__title {
+  background: #020024;
+  background: -webkit-linear-gradient(-40deg, #020024 0%, #e38a12 0%, #8e5aff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.chic__menu {
+  color: #e38a12;
+}
+
+.delice {
+  background-color: #f9f9f9;
+}
+
+.delice__title {
+  background: #020024;
+  background: -webkit-linear-gradient(-40deg, #020024 0%, #001dd9 0%, #0889fb 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.delice__menu {
+  color: #0889fb;
+}
+
+.palette {
+  background-color: #fdfffd;
+}
+
+.palette__title {
+  background: #020024;
+  background: linear-gradient(80deg, #020024 0%, #3e923a 0%, #bfff7f 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.palette__menu {
+  color: #72bf56;
 }
 
 /*# sourceMappingURL=style.css.map */
