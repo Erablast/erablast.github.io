@@ -116,4 +116,13 @@ html, body, .navbar__title {
   color: #72bf56;
 }
 
+.button_soon {
+  align-self: flex-end;
+  background-color: #579c87;
+  color: #fdcc46;
+  padding: 10px 25px 10px 25px;
+  border: none;
+  border-radius: 5px;
+}
+
 /*# sourceMappingURL=style.css.map */
