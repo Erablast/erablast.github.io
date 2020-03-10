@@ -117,12 +117,31 @@ html, body, .navbar__title {
 }
 
 .button_soon {
-  align-self: flex-end;
+  margin: 5px 0px 10px 0px;
   background-color: #579c87;
   color: #fdcc46;
   padding: 10px 25px 10px 25px;
   border: none;
   border-radius: 5px;
+}
+
+.button_soon_wrapper {
+  text-align: center;
+}
+
+footer {
+  height: 30px;
+  background-color: #579c87;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer__link {
+  color: #fdcc46;
+  font-size: 18px;
+  text-decoration: none;
+  padding: 0px 10px 0px 10px;
 }
 
 /*# sourceMappingURL=style.css.map */
