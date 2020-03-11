@@ -62,11 +62,9 @@ html, body, .navbar__title {
 .note {
   background-color: #fcdfdb;
 }
-
 .note__title {
   color: #3d1319;
 }
-
 .note__menu {
   color: #3d1319;
 }
@@ -74,14 +72,12 @@ html, body, .navbar__title {
 .chic {
   background-color: #fff5fe;
 }
-
 .chic__title {
   background: #020024;
   background: -webkit-linear-gradient(-40deg, #020024 0%, #e38a12 0%, #8e5aff 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-
 .chic__menu {
   color: #e38a12;
 }
@@ -89,14 +85,12 @@ html, body, .navbar__title {
 .delice {
   background-color: #f9f9f9;
 }
-
 .delice__title {
   background: #020024;
   background: -webkit-linear-gradient(-40deg, #020024 0%, #001dd9 0%, #0889fb 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-
 .delice__menu {
   color: #0889fb;
 }
@@ -104,14 +98,12 @@ html, body, .navbar__title {
 .palette {
   background-color: #fdfffd;
 }
-
 .palette__title {
   background: #020024;
   background: linear-gradient(80deg, #020024 0%, #3e923a 0%, #bfff7f 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-
 .palette__menu {
   color: #72bf56;
 }
