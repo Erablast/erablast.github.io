@@ -32,6 +32,11 @@ html, body, .navbar__title {
   box-shadow: 1px 1px 5px 1px #b9c7c0;
 }
 
+.palette, .chic, .delice {
+  display: flex;
+  align-items: center;
+}
+
 .item__content {
   display: flex;
   justify-content: center;
@@ -39,8 +44,6 @@ html, body, .navbar__title {
   flex-wrap: wrap;
 }
 .item__content__title {
-  font-size: 20px;
-  max-width: 100px;
   text-align: center;
 }
 .item__content__menu {
@@ -64,6 +67,9 @@ html, body, .navbar__title {
 }
 .note__title {
   color: #3d1319;
+  font-size: 25px;
+  max-width: 110px;
+  margin-bottom: 5px;
 }
 .note__menu {
   color: #3d1319;
@@ -80,6 +86,10 @@ html, body, .navbar__title {
 }
 .chic__menu {
   color: #e38a12;
+}
+.chic__title {
+  font-size: 19px;
+  max-width: 130px;
 }
 
 .delice {
