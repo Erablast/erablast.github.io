@@ -1,0 +1,63 @@
+/* Note titre */
+@font-face{
+    font-family: Devonshire;
+    src: url(fonts/Devonshire-Regular.ttf)
+}
+.note__title{
+    font-family: Devonshire ;
+}
+/* Chic titre */
+@font-face{
+    font-family: Croissant ;
+    src: url(fonts/CroissantOne-Regular.ttf)
+}
+.chic__title{
+    font-family: Croissant;
+}
+/* Delice titre */
+@font-face{
+    font-family: Parisienne ;
+    src: url(fonts/parisienne-regular.ttf)
+}
+.delice__title{
+    font-family: Parisienne;
+}
+/* Palette titre*/
+@font-face{
+    font-family: Kaushan ;
+    src: url(fonts/KaushanScript-Regular.otf)
+}
+.palette__title{
+    font-family: Kaushan;
+}
+/* Chic menu */
+@font-face{
+    font-family: Serif12 ;
+    src: url(fonts/Serif12Beta-Regular.otf)
+}
+.chic__menu{
+    font-family: Serif12;
+    font-weight: lighter;
+}
+/* Heading menu font */
+@font-face{
+    font-family: Heading ;
+    src: url(fonts/Aspira\ Wide\ W01\ Heavy.ttf)
+}
+.heading_font{
+    font-family: Heading;
+}
+/* generic menu font */
+@font-face{
+    font-family: Generic ;
+    src: url(fonts/flow.otf)
+}
+.note__menu{
+    font-family: Generic;
+    text-transform: uppercase;
+}
+.delice__menu, .palette__menu{
+    font-family: Generic;
+    text-transform: uppercase;
+    font-weight: normal;
+}

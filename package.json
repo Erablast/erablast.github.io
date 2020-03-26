@@ -1,0 +1,11 @@
+{
+  "name": "sass-main",
+  "version": "1.0.0",
+  "description": "sass",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./menu-note/style.sass:./menu-note/style.css"
+  },
+  "author": "",
+  "license": "ISC"
+}
