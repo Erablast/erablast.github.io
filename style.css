@@ -1,3 +1,7 @@
+a {
+  text-decoration: none;
+}
+
 html, body, .navbar__title {
   padding: 0px;
   margin: 0px;
@@ -73,6 +77,8 @@ html, body, .navbar__title {
 }
 .note__menu {
   color: #3d1319;
+  font-weight: bold;
+  font-size: 32px;
 }
 
 .chic {
@@ -86,6 +92,7 @@ html, body, .navbar__title {
 }
 .chic__menu {
   color: #e38a12;
+  font-size: 32px;
 }
 .chic__title {
   font-size: 19px;
@@ -103,6 +110,7 @@ html, body, .navbar__title {
 }
 .delice__menu {
   color: #0889fb;
+  font-size: 32px;
 }
 
 .palette {
@@ -116,6 +124,7 @@ html, body, .navbar__title {
 }
 .palette__menu {
   color: #72bf56;
+  font-size: 32px;
 }
 
 .button_soon {
@@ -142,7 +151,6 @@ footer {
 .footer__link {
   color: #fdcc46;
   font-size: 18px;
-  text-decoration: none;
   padding: 0px 10px 0px 10px;
 }
 
