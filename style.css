@@ -144,9 +144,9 @@ html, body, .navbar__title {
 }
 
 footer {
-  position: sticky;
+  position: fixed;
   bottom: 0;
-  widht: 100%;
+  width: 100%;
   height: 30px;
   background-color: #579c87;
   display: flex;

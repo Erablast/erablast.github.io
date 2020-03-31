@@ -29,6 +29,9 @@ html, body, .navbar__title {
 }
 
 footer {
+  width: 100%;
+  position: fixed;
+  bottom: 0px;
   height: 30px;
   background-color: #579c87;
   display: flex;
