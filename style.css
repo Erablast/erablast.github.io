@@ -128,17 +128,16 @@ html, body, .navbar__title {
 }
 
 .button_soon {
-  margin: 5px 0px 10px 0px;
   background-color: #579c87;
   color: #fdcc46;
   padding: 10px 25px 10px 25px;
-  margin-bottom: 20px;
   border: none;
   border-radius: 5px;
 }
 
 .button_soon_wrapper {
   text-align: center;
+  margin: 20px 0px 25px 0px;
 }
 
 footer {
