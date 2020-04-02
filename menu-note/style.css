@@ -37,6 +37,7 @@ html, body, .navbar__title {
   width: 280px;
   height: 396px;
   transform: scale(1);
+  transition: transform 400ms;
 }
 
 .menu-img:hover {

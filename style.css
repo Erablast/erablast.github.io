@@ -81,6 +81,12 @@ html, body, .navbar__title {
   font-size: 32px;
 }
 
+.menu_link {
+  position: absolute;
+  height: 200px;
+  width: 135px;
+}
+
 .chic {
   background-color: #fff5fe;
 }
