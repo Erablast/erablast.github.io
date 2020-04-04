@@ -114,11 +114,13 @@ html, body, .navbar__title
         font-size: 32px
 
 .button_soon
+    display: inline-block
     background-color: $menu_green
     color: $menu_yellow
     padding: 10px 25px 10px 25px
     border: none
     border-radius: 5px
+    box-shadow: 1px 1px 5px 1px #b9c7c0
 
 .button_soon_wrapper 
     text-align: center
@@ -138,3 +140,19 @@ footer
     color: $menu_yellow
     font-size: 18px
     padding: 0px 10px 0px 10px
+    &:hover
+        animation: 0.4s wiggle
+
+@keyframes wiggle 
+  0%
+    transform: skewY(5deg)
+  20%
+    transform: skewY(-5deg)
+  40%
+    transform: skewY(5deg)
+  60%
+    transform: skewY(-5deg)
+  80%
+    transform: skewY(5deg)
+  100%
+    transform: skewY(-5deg)
