@@ -7,6 +7,12 @@ html, body, .navbar__title {
   margin: 0px;
 }
 
+.fa-music {
+  background: -webkit-linear-gradient(15deg, #020024 0%, #f04e5f 0%, #f6916a 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .navbar {
   background-color: #579c87;
   height: 85px;
@@ -19,29 +25,80 @@ html, body, .navbar__title {
   font-size: 30px;
 }
 
+.title_icon {
+  height: 25px;
+  width: 25px;
+  font-size: 25px;
+  padding-top: 5px;
+  margin: auto;
+}
+
 .menu-title {
-  font-size: 20px;
-  text-align: center;
+  padding-top: 5px;
+  margin: auto;
+  font-size: 15px;
+  color: #3d1319;
+  font-family: Devonshire;
 }
 
 .menu-container {
   margin: auto;
-  width: 280px;
-  height: 396px;
+  margin-top: 20px;
   display: flex;
+  align-items: center;
+  height: 440px;
+  width: 300px;
   box-shadow: 1px 1px 5px 1px #b9c7c0;
   overflow: hidden;
 }
 
-.menu-img {
-  width: 280px;
-  height: 396px;
+.menu {
+  background-color: #fcdfdb;
+  display: flex;
+  flex-direction: column;
+  height: 440px;
+  width: 300px;
   transform: scale(1);
   transition: transform 400ms;
 }
+.menu__upper-title, .menu .menu__middle-title, .menu .menu__lower-title {
+  margin: auto;
+  font-size: 10px;
+  color: #3d1319;
+}
+.menu__listing {
+  color: #3d1319;
+  margin: auto;
+  padding: 0px;
+  font-size: 10px;
+  list-style: none;
+}
+.menu__listing__price {
+  font-weight: bold;
+  color: #3d1319;
+}
 
-.menu-img:hover {
-  transform: scale(1.255);
+.menu:hover {
+  transform: scale(1.05);
+}
+
+.menu_footer {
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+}
+.menu_footer__title {
+  margin: 0px;
+  font-size: 13px;
+  height: 20px;
+  color: #3d1319;
+}
+.menu_footer__icon {
+  height: 20px;
+  width: 20px;
+  font-size: 20px;
+  padding-right: 5px;
 }
 
 footer {
