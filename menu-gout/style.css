@@ -7,12 +7,6 @@ html, body, .navbar__title {
   margin: 0px;
 }
 
-.fa-music {
-  background: -webkit-linear-gradient(15deg, #020024 0%, #f04e5f 0%, #f6916a 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
 .navbar {
   background-color: #579c87;
   height: 85px;
@@ -25,25 +19,20 @@ html, body, .navbar__title {
   font-size: 30px;
 }
 
-.title_icon {
-  height: 25px;
-  width: 25px;
-  font-size: 25px;
-  padding-top: 5px;
-  margin: auto;
-}
-
 .menu-title {
   padding-top: 5px;
   margin: auto;
-  font-size: 15px;
-  color: #3d1319;
-  font-family: Devonshire;
+  font-size: 25px;
+  font-family: Kaushan;
+  background: #020024;
+  background: linear-gradient(80deg, #020024 0%, #3e923a 0%, #bfff7f 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .menu-container {
-  margin: auto;
-  margin-top: 20px;
+  margin: 20px auto 50px auto;
+  padding-bottom: 50px;
   display: flex;
   align-items: center;
   height: 440px;
@@ -52,8 +41,12 @@ html, body, .navbar__title {
   overflow: hidden;
 }
 
+.bracket_left, .bracket_right {
+  width: 90px;
+  height: 6px;
+}
+
 .menu {
-  background-color: #fcdfdb;
   display: flex;
   flex-direction: column;
   height: 440px;
@@ -62,46 +55,53 @@ html, body, .navbar__title {
   transition: transform 400ms;
 }
 .menu__upper-title, .menu .menu__middle-title, .menu .menu__lower-title {
-  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
   font-size: 10px;
   color: #3d1319;
+  width: 100%;
+  font-family: Generic;
+  font-weight: bold;
+}
+.menu__underline_hover:after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 1.6px;
+  background: linear-gradient(80deg, #020024 0%, #3e923a 0%, #bfff7f 100%);
+  transition: width 0.2s;
+}
+.menu__underline_hover:hover::after {
+  width: 100%;
 }
 .menu__listing {
   color: #3d1319;
   margin: auto;
   padding: 0px;
-  font-size: 10px;
+  font-size: 9px;
   list-style: none;
+  font-family: Generic;
 }
 .menu__listing__price {
   font-weight: bold;
   color: #3d1319;
 }
 
-.menu:hover {
-  transform: scale(1.05);
-}
-
-.menu_footer {
-  height: 40px;
-  display: flex;
-  flex-direction: row;
-  margin: auto;
-}
-.menu_footer__title {
-  margin: 0px;
-  font-size: 13px;
-  height: 20px;
-  color: #3d1319;
-}
-.menu_footer__icon {
-  height: 20px;
-  width: 20px;
-  font-size: 20px;
+.menu__listing__price {
+  position: fixed;
+  right: 0px;
   padding-right: 5px;
 }
 
+.menu:hover {
+  transform: scale(1.1);
+}
+
 footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
   margin-top: 30px;
   height: 30px;
   background-color: #579c87;
@@ -114,6 +114,30 @@ footer {
   color: #fdcc46;
   font-size: 18px;
   padding: 0px 10px 0px 10px;
+}
+.footer__link:hover {
+  animation: 0.4s wiggle;
+}
+
+@keyframes wiggle {
+  0% {
+    transform: skewY(5deg);
+  }
+  20% {
+    transform: skewY(-5deg);
+  }
+  40% {
+    transform: skewY(5deg);
+  }
+  60% {
+    transform: skewY(-5deg);
+  }
+  80% {
+    transform: skewY(5deg);
+  }
+  100% {
+    transform: skewY(-5deg);
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
