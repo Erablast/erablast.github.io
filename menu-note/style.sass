@@ -40,8 +40,7 @@ html, body, .navbar__title
     font-family: Devonshire
 
 .menu-container
-    margin: auto
-    margin-top: 20px
+    margin: 20px auto 50px auto
     display: flex
     align-items: center
     height: 440px
@@ -68,6 +67,8 @@ html, body, .navbar__title
         font-size: 10px
         color: #3d1319
         width: 100%
+        font-family: Generic
+        font-weight: bold
     &__underline_hover:after
         content: ''
         display: block
@@ -77,17 +78,19 @@ html, body, .navbar__title
         transition: width .2s
     &__underline_hover:hover::after
         width:100%
+        
     &__listing
         color: #3d1319
         margin: auto
         padding: 0px
         font-size: 10.0px
         list-style: none
+        font-family: Generic
         &__price
             font-weight: bold
             color: #3d1319
 .menu:hover
-    transform: scale(1.05)
+    transform: scale(1.04)
 
 .menu_footer
     height: 40px
@@ -106,6 +109,9 @@ html, body, .navbar__title
         padding-right: 5px
 
 footer
+    position: fixed
+    bottom: 0
+    width: 100%
     margin-top: 30px
     height: 30px
     background-color: $menu_green

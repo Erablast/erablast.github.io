@@ -42,8 +42,7 @@ html, body, .navbar__title {
 }
 
 .menu-container {
-  margin: auto;
-  margin-top: 20px;
+  margin: 20px auto 50px auto;
   display: flex;
   align-items: center;
   height: 440px;
@@ -73,6 +72,8 @@ html, body, .navbar__title {
   font-size: 10px;
   color: #3d1319;
   width: 100%;
+  font-family: Generic;
+  font-weight: bold;
 }
 .menu__underline_hover:after {
   content: "";
@@ -91,6 +92,7 @@ html, body, .navbar__title {
   padding: 0px;
   font-size: 10px;
   list-style: none;
+  font-family: Generic;
 }
 .menu__listing__price {
   font-weight: bold;
@@ -98,7 +100,7 @@ html, body, .navbar__title {
 }
 
 .menu:hover {
-  transform: scale(1.05);
+  transform: scale(1.04);
 }
 
 .menu_footer {
@@ -121,6 +123,9 @@ html, body, .navbar__title {
 }
 
 footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
   margin-top: 30px;
   height: 30px;
   background-color: #579c87;
