@@ -21,26 +21,78 @@ html, body, .navbar__title
         font-size: 30px
 
 .menu-title
-    font-size: 20px
-    text-align: center
+    padding-top: 5px
+    margin: auto
+    font-size: 25px
+    font-family: Kaushan
+    background: rgb(2,0,36)
+    background: linear-gradient(80deg, rgba(2,0,36,1) 0%, rgba(62,146,58,1) 0%, rgba(191,255,127,1) 100%)
+    -webkit-background-clip: text
+    -webkit-text-fill-color: transparent
 
 .menu-container
-    margin: auto
-    width: 280px
-    height: 396px
+    margin: 20px auto 50px auto
+    padding-bottom: 50px
     display: flex
+    align-items: center
+    height: 440px
+    width: 300px
     box-shadow: 1px 1px 5px 1px #b9c7c0
     overflow: hidden
 
-.menu-img
-    width: 280px
-    height: 396px
-    transform: scale(1)
+.bracket_left, .bracket_right
+    width: 90px
+    height: 6px
 
-.menu-img:hover
-    transform: scale(1.255)
+.menu
+    display: flex
+    flex-direction: column
+    height: 440px
+    width: 300px
+    transform: scale(1)
+    transition: transform 400ms
+    &__upper-title, .menu__middle-title, .menu__lower-title
+        display: flex
+        align-items: center
+        justify-content: space-around
+        font-size: 10px
+        color: #3d1319
+        width: 100%
+        font-family: Generic
+        font-weight: bold
+    &__underline_hover:after
+        content: ''
+        display: block
+        width: 0
+        height: 1.6px
+        background: linear-gradient(80deg, rgba(2,0,36,1) 0%, rgba(62,146,58,1) 0%, rgba(191,255,127,1) 100%)
+        transition: width .2s
+    &__underline_hover:hover::after
+        width:100%
+        
+    &__listing
+        color: #3d1319
+        margin: auto
+        padding: 0px
+        font-size: 9px
+        list-style: none
+        font-family: Generic
+        &__price
+            font-weight: bold
+            color: #3d1319
+
+.menu__listing__price
+    position: fixed
+    right: 0px
+    padding-right: 5px
+
+.menu:hover
+    transform: scale(1.02)
 
 footer
+    position: fixed
+    bottom: 0
+    width: 100%
     margin-top: 30px
     height: 30px
     background-color: $menu_green
@@ -52,3 +104,19 @@ footer
     color: $menu_yellow
     font-size: 18px
     padding: 0px 10px 0px 10px
+    &:hover
+        animation: 0.4s wiggle
+
+@keyframes wiggle 
+  0%
+    transform: skewY(5deg)
+  20%
+    transform: skewY(-5deg)
+  40%
+    transform: skewY(5deg)
+  60%
+    transform: skewY(-5deg)
+  80%
+    transform: skewY(5deg)
+  100%
+    transform: skewY(-5deg)

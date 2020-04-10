@@ -83,6 +83,12 @@ html, body, .navbar__title {
   font-size: 32px;
 }
 
+.menu_link {
+  position: absolute;
+  height: 200px;
+  width: 135px;
+}
+
 .chic {
   background-color: #fff5fe;
 }
@@ -130,17 +136,18 @@ html, body, .navbar__title {
 }
 
 .button_soon {
-  margin: 5px 0px 10px 0px;
+  display: inline-block;
   background-color: #579c87;
   color: #fdcc46;
   padding: 10px 25px 10px 25px;
-  margin-bottom: 20px;
   border: none;
   border-radius: 5px;
+  box-shadow: 1px 1px 5px 1px #b9c7c0;
 }
 
 .button_soon_wrapper {
   text-align: center;
+  margin: 20px 0px 53px 0px;
 }
 
 footer {
@@ -159,4 +166,28 @@ footer {
   font-size: 18px;
   padding: 0px 10px 0px 10px;
 }
-/*# sourceMappingURL=style.css.map */
+
+.footer__link:hover {
+  animation: 0.4s wiggle;
+}
+
+@keyframes wiggle {
+  0% {
+    transform: skewY(5deg);
+  }
+  20% {
+    transform: skewY(-5deg);
+  }
+  40% {
+    transform: skewY(5deg);
+  }
+  60% {
+    transform: skewY(-5deg);
+  }
+  80% {
+    transform: skewY(5deg);
+  }
+  100% {
+    transform: skewY(-5deg);
+  }
+}
