@@ -33,6 +33,7 @@ html, body, .navbar__title {
 .menu-container {
   margin: 20px auto 50px auto;
   padding-bottom: 50px;
+  background-color: #edefef;
   display: flex;
   align-items: center;
   height: 440px;
@@ -69,7 +70,7 @@ html, body, .navbar__title {
   display: block;
   width: 0;
   height: 1.6px;
-  background: linear-gradient(80deg, #020024 0%, #3e923a 0%, #bfff7f 100%);
+  background: -webkit-linear-gradient(-40deg, #020024 0%, #001dd9 0%, #0889fb 100%);
   transition: width 0.2s;
 }
 .menu__underline_hover:hover::after {

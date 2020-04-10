@@ -28,6 +28,10 @@ html, body, .navbar__title
     padding: 0px 5px 0px 5px
     
 footer
+    position: fixed
+    bottom: 0
+    width: 100%
+    margin-top: 30px
     height: 30px
     background-color: $menu_green
     display: flex
@@ -37,3 +41,20 @@ footer
 .footer__link
     color: $menu_yellow
     font-size: 18px
+    padding: 0px 10px 0px 10px
+    &:hover
+        animation: 0.4s wiggle
+
+@keyframes wiggle 
+  0%
+    transform: skewY(5deg)
+  20%
+    transform: skewY(-5deg)
+  40%
+    transform: skewY(5deg)
+  60%
+    transform: skewY(-5deg)
+  80%
+    transform: skewY(5deg)
+  100%
+    transform: skewY(-5deg)
