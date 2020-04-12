@@ -1,4 +1,5 @@
 /* Media queries version "tablette"*/
+
 /* Page d'acceuil */
 @media screen and (min-width: 660px){
     /* Header */
@@ -9,6 +10,10 @@
         font-size: 40px;
     }
     /* Body */
+    .menu_link{
+        height: 300px;
+        width: 200px;
+    }
     .menu_wrapper__item {
       max-width: 200px;
       min-height: 300px;
@@ -48,6 +53,7 @@
     }
     /* Soon button */
     .button_soon{
+        margin-bottom: 30px;
         padding: 20px 30px 20px 30px;
         font-size: 20px;
     }
@@ -58,6 +64,12 @@
     .footer__link{
         font-size: 20px;
     }
+    /* Mentions légales */
+    .mention-text{
+        font-size: 20px;
+        max-width: 400px;
+        margin: auto;
+    }
     /* Menus */
     .menu-title{
         font-size: 28px;
@@ -65,20 +77,43 @@
     .menu-container {
         margin: auto;
         width: 480px;
+        margin-top: 30px;
         height: 596px;
         display: flex;
         box-shadow: 1px 1px 5px 1px #b9c7c0;
         overflow: hidden;
       }
+    .menu{
+        height: 596px;
+        width: 480px;
+    }
+    .menu__upper-title h3, .menu__middle-title h3, .menu__lower-title h3{
+        font-size: 15px;
+    }
+    .bracket_left, .bracket_right{
+        height: 9px;
+        width: 120px;
+    }
+    .menu__listing{
+        font-size: 12px ;
+    }
     .menu-img{
         width: 480px;
         height: 596px;
     }
-    /* Mentions légales */
-    .mention-text{
-        font-size: 20px;
-        max-width: 400px;
-        margin: auto;
-        
+    .menu:hover{
+        transform: scale(1.14)
+    }
+    /* Page note*/
+    .menu_footer__title{
+        font-size: 15px;
+    }
+    .menu_footer__icon{
+        position: relative;
+        top: -15px;
+        left: -5px;
+    }
+    .menu__listing__price{
+        padding-right: 30px;
     }
   }
