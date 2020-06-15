@@ -4,7 +4,7 @@
   "description": "sass",
   "main": "index.js",
   "scripts": {
-    "sass": "sass --watch ./menu-chic/style.sass:./menu-chic/style.css"
+    "sass": "sass --watch ./menu-note/style.sass:./menu-note/style.css"
   },
   "author": "",
   "license": "ISC"
