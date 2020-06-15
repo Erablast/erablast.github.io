@@ -138,7 +138,35 @@ footer {
   }
   100% {
     transform: skewY(-5deg);
-  }
 }
-
+  
+.menu-img {
+  width: 280px;
+  height: 396px;
+  transform: scale(1);
+}
+  
+.menu-img:hover {
+  transform: scale(1.255);
+}
+  
+footer {
+  width: 100%;
+  position: fixed;
+  bottom: 0px;
+  margin-top: 30px;
+  height: 30px;
+  background-color: #579c87;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+  
+.footer__link {
+  color: #fdcc46;
+  font-size: 18px;
+  padding: 0px 10px 0px 10px;
+}
+  
 /*# sourceMappingURL=style.css.map */
+  

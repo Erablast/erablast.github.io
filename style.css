@@ -20,6 +20,8 @@ html, body, .navbar__title {
 }
 
 .menu_wrapper {
+  max-width: 440px;
+  margin: auto;
   margin-top: 15px;
   display: flex;
   flex-wrap: wrap;
@@ -164,6 +166,7 @@ footer {
   font-size: 18px;
   padding: 0px 10px 0px 10px;
 }
+
 .footer__link:hover {
   animation: 0.4s wiggle;
 }
@@ -188,5 +191,3 @@ footer {
     transform: skewY(-5deg);
   }
 }
-
-/*# sourceMappingURL=style.css.map */
