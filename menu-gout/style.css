@@ -38,7 +38,6 @@ html, body, .navbar__title {
   height: 440px;
   width: 300px;
   box-shadow: 1px 1px 5px 1px #b9c7c0;
-  overflow: hidden;
 }
 
 .bracket_left, .bracket_right {
@@ -52,7 +51,6 @@ html, body, .navbar__title {
   height: 440px;
   width: 300px;
   transform: scale(1);
-  transition: transform 400ms;
 }
 .menu__upper-title, .menu .menu__middle-title, .menu .menu__lower-title {
   display: flex;
@@ -95,7 +93,7 @@ html, body, .navbar__title {
 }
 
 .menu:hover {
-  transform: scale(1.02);
+  transform: scale(1);
 }
 
 footer {
@@ -146,7 +144,7 @@ footer {
 }
   
 .menu-img:hover {
-  transform: scale(1.255);
+  transform: scale(1);
 }
   
 footer {
