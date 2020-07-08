@@ -81,7 +81,6 @@
         height: 596px;
         display: flex;
         box-shadow: 1px 1px 5px 1px #b9c7c0;
-        overflow: hidden;
       }
     .menu{
         height: 596px;
@@ -101,9 +100,7 @@
         width: 480px;
         height: 596px;
     }
-    .menu:hover{
-        transform: scale(1.14)
-    }
+
     /* Page note*/
     .menu_footer__title{
         font-size: 15px;
@@ -137,7 +134,6 @@
         height: 636px;
         display: flex;
         box-shadow: 1px 1px 5px 1px #b9c7c0;
-        overflow: hidden;
       }
     .menu{
         height: 636px;
@@ -156,8 +152,5 @@
     .menu-img{
         width: 480px;
         height: 596px;
-    }
-    .menu:hover{
-        transform: scale(1.12)
     }
 }

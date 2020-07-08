@@ -53,7 +53,6 @@ html, body, .navbar__title {
   height: 440px;
   width: 300px;
   transform: scale(1);
-  transition: transform 400ms;
 }
 .menu__upper-title {
   color: #c67412;
@@ -119,7 +118,7 @@ html, body, .navbar__title {
 }
 
 .menu:hover {
-  transform: scale(1.06);
+  transform: scale(1);
 }
 
 footer {
@@ -170,7 +169,7 @@ footer {
 }
   
 .menu-img:hover {
-  transform: scale(1.255);
+  transform: scale(1);
 }
   
 footer {
