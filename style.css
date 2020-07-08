@@ -151,7 +151,7 @@ html, body, .navbar__title {
   height: 3px;
   border-radius: 50%;
   margin-right: 2px;
-  background: #000;
+  background: #fdcc46;
   animation: dots 1.3s;
   animation-iteration-count: infinite;
 }
