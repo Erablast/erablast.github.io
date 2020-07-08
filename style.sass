@@ -31,10 +31,18 @@ html, body, .navbar__title
     &__item
         margin: 10px
 
+.menu_inner
+    transform: scale(1)
+    transition: transform 400ms
+
+.menu_inner:hover
+    transform: scale(1.12)
+
 .menu_wrapper__item
     max-width: 135px
     min-height: 200px
     box-shadow: 1px 1px 5px 1px #b9c7c0
+    overflow: hidden
 
 .palette, .chic, .delice
     display: flex
@@ -113,6 +121,7 @@ html, body, .navbar__title
     &__menu
         color: #72bf56
         font-size: 32px
+
 //soon button
 .button_soon
     display: inline-block
