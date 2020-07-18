@@ -161,13 +161,14 @@ footer {
   100% {
     transform: skewY(-5deg);
 }
-  
+}
+
 .menu-img {
   width: 280px;
   height: 396px;
   transform: scale(1);
 }
-  
+
 .menu-img:hover {
   transform: scale(1);
 }
@@ -189,6 +190,3 @@ footer {
   font-size: 18px;
   padding: 0px 10px 0px 10px;
 }
-  
-  /*# sourceMappingURL=style.css.map */
-  

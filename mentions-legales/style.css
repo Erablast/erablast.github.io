@@ -29,15 +29,9 @@ html, body, .navbar__title {
 }
 
 footer {
-<<<<<<< HEAD
-  width: 100%;
-  position: fixed;
-  bottom: 0px;
-=======
   position: fixed;
   bottom: 0;
   width: 100%;
->>>>>>> mobile
   height: 30px;
   background-color: #579c87;
   display: flex;
